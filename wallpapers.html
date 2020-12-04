@@ -1,469 +1,516 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- favicon -->
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="images/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-	<title>AndroidNotF0und - Wallpapers</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/ionicons.min.css">
-	<link rel="stylesheet" href="css/fakeLoader.css">
-	<link rel="stylesheet" href="css/swiper.min.css">
-	<link rel="stylesheet" href="css/style.css">
+
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+ <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+ <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+ <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+ <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+ <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+ <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+ <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+ <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+ <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+ <link rel="manifest" href="images/manifest.json">
+ <meta name="msapplication-TileColor" content="#ffffff">
+ <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+ <meta name="theme-color" content="#ffffff">
+ <title>AndroidNotF0und - Wallpapers</title>
+ <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/ionicons.min.css">
+ <link rel="stylesheet" href="css/fakeLoader.css">
+ <link rel="stylesheet" href="css/swiper.min.css">
+ <link rel="stylesheet" href="css/style.css">
+
 </head>
+<!-- end favicon -->
+
 <body>
 	
-	<!-- fakeloader -->
-	<div class="fakeLoader"></div>
-	<!-- end fakeloader -->
+ <!-- fakeloader -->
+ <div class="fakeLoader"></div>
+ <!-- end fakeloader -->
 	
-	<!-- navbar -->
-	<div class="navbar navbar-home navbar-left-title">
-	 <div class="title title-home">Wallpapers</div>
-	 <p>thanks to Unsplash</p>
-	</div>
-	<!-- end navbar -->
+ <!-- navbar -->
+ <div class="navbar navbar-home navbar-left-title">
+  <div class="title title-home">Wallpapers</div>
+   <p>thanks to Unsplash</p>
+  </div>
+ <!-- end navbar -->
 
-	<!-- sidebar -->
-	<div class="side-overlay"></div>
-	<div id="menu" class="panel sidebar" role="navigation">
+ <!-- sidebar -->
+ <div class="side-overlay"></div>
+ <div id="menu" class="panel sidebar" role="navigation">
 
-		<!-- separator -->
-		<div class="separator-large"></div>
-		<!-- end separator -->
+  <!-- separator -->
+  <div class="separator-large"></div>
+  <!-- end separator -->
 
-		<div class="list-view list-separate-two list-colored">
-			<ul>
-				<li>
-					<a href="index.html" class="list-item">
-						<div class="list-media">
-							<i class="icon ion-ios-home bg-blue"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Home</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="features.html" class="list-item">
-						<div class="list-media">
-							<i class="icon ion-ios-star bg-red"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Features</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="pages.html" class="list-item">
-						<div class="list-media">
-							<i class="icon ion-ios-browsers bg-green"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Pages</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="apps.html" class="list-item">
-						<div class="list-media">
-							<i class="icon ion-ios-apps bg-yellow"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Apps</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="sign-in.html" class="list-item">
-						<div class="list-media">
-							<i class="icon ion-ios-log-in bg-purple"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Sign In</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="settings.html" class="list-item">
-						<div class="list-media">
-							<i class="icon ion-ios-settings bg-orange"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Settings</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-			</ul>
-		</div>
+  <div class="list-view list-separate-two list-colored">
+   <ul>
+    <li>
+     <a href="index.html" class="list-item">
+	  <div class="list-media">
+	   <i class="icon ion-ios-home bg-blue"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Home</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+    </li>
+    <li>
+     <a href="features.html" class="list-item">
+	  <div class="list-media">
+	   <i class="icon ion-ios-star bg-red"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Features</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+    </li>
+    <li>
+     <a href="pages.html" class="list-item">
+	  <div class="list-media">
+	   <i class="icon ion-ios-browsers bg-green"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Pages</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+    </li>
+    <li>
+     <a href="apps.html" class="list-item">
+	  <div class="list-media">
+	   <i class="icon ion-ios-apps bg-yellow"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Apps</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+    </li>
+    <li>
+     <a href="sign-in.html" class="list-item">
+	  <div class="list-media">
+	   <i class="icon ion-ios-log-in bg-purple"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Sign In</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+    </li>
+    <li>
+    <a href="settings.html" class="list-item">
+     <div class="list-media">
+	  <i class="icon ion-ios-settings bg-orange"></i>
+	 </div>
+	 <div class="list-label">
+	  <div class="list-title">Settings</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+     </a>
+    </li>
+   </ul>
+  </div>
 
-		<!-- separator -->
-		<div class="separator-large"></div>
-		<!-- end separator -->
+  <!-- separator -->
+  <div class="separator-large"></div>
+  <!-- end separator -->
 
-		<!-- separator -->
-		<div class="separator-large"></div>
-		<!-- end separator -->
+  <!-- separator -->
+  <div class="separator-large"></div>
+  <!-- end separator -->
 
-	</div>
-	<!-- end sidebar -->
+ </div>
+ <!-- end sidebar -->
 
-	<!-- page wrapper -->
-	<div class="page-wrapper">
-		<!-- separator -->
-		<div class="separator-large"></div>
-		<!-- end separator -->
+ <!-- page wrapper -->
+ <div class="page-wrapper">
 		
-		<div class="list-view list-separate-two list-colored">
-			<ul>
-				<li>
-					<a href="https://unsplash.com/s/photos/abstract?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Abstract</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/aesthetic?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Aesthetic</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/animals?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Animals</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/anime?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Anime</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/architecture?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Architecture</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/artworks?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Artworks</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/cars?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Cars</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/dark?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Dark</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/dope?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Dope</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/flowers?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Flowers</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/gaming?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Gaming</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/glitch?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Glitch</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/gradient?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Gradient</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/minimal?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Minimal</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/movies?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Movies</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/nature?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Nature</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/ocean?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Ocean</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/space?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Space</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/street?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Street</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-		        <li>
-					<a href="https://unsplash.com/s/photos/superheroes?orientation=portrait" class="list-item">
-						<div class="list-media">
-							<i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
-						</div>
-						<div class="list-label">
-							<div class="list-title">Superheroes</div>
-							<div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
-						</div>
-					</a>
-				</li>
-				<!-- separator -->
-		        <div class="separator-large"></div>
-		        <!-- end separator -->
-			</ul>
-		</div>
+  <!-- separator -->
+  <div class="separator-large"></div>
+  <!-- end separator -->
+		
+  <div class="list-view list-separate-two list-colored">
+   <ul>
+	<li>
+	 <a href="https://unsplash.com/s/photos/abstract?orientation=portrait" class="list-item">
+	  <div class="list-media">
+	   <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Abstract</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+	</li>
 
-		<!-- separator -->
-		<div class="separator-large"></div>
-		<!-- end separator -->
+   <!-- separator -->
+   <div class="separator-large"></div>
+   <!-- end separator -->
+   
+   <li>
+    <a href="https://unsplash.com/s/photos/aesthetic?orientation=portrait" class="list-item">
+	 <div class="list-media">
+	  <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	 </div>
+	 <div class="list-label">
+	  <div class="list-title">Aesthetic</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	 </div>
+	</a>
+   </li>
 
+   <!-- separator -->
+   <div class="separator-large"></div>
+   <!-- end separator -->
+
+   <li>
+    <a href="https://unsplash.com/s/photos/animals?orientation=portrait" class="list-item">
+	 <div class="list-media">
+	  <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	 </div>
+	 <div class="list-label">
+	  <div class="list-title">Animals</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	 </div>
+	</a>
+   </li>
+
+   <!-- separator -->
+   <div class="separator-large"></div>
+   <!-- end separator -->
+
+   <li>
+    <a href="https://unsplash.com/s/photos/anime?orientation=portrait" class="list-item">
+	 <div class="list-media">
+	  <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	 </div>
+	 <div class="list-label">
+	  <div class="list-title">Anime</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	 </div>
+	</a>
+   </li>
+
+   <!-- separator -->
+   <div class="separator-large"></div>
+   <!-- end separator -->
+
+   <li>
+    <a href="https://unsplash.com/s/photos/architecture?orientation=portrait" class="list-item">
+	 <div class="list-media">
+	  <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	 </div>
+	 <div class="list-label">
+	  <div class="list-title">Architecture</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	 </div>
+	</a>
+   </li>
+
+   <!-- separator -->
+   <div class="separator-large"></div>
+   <!-- end separator -->
+
+   <li>
+    <a href="https://unsplash.com/s/photos/artworks?orientation=portrait" class="list-item">
+	 <div class="list-media">
+	  <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	 </div>
+	 <div class="list-label">
+	  <div class="list-title">Artworks</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	 </div>
+	</a>
+   </li>
+
+   <!-- separator -->
+   <div class="separator-large"></div>
+   <!-- end separator -->
+
+   <li>
+    <a href="https://unsplash.com/s/photos/cars?orientation=portrait" class="list-item">
+	 <div class="list-media">
+	  <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	 </div>
+	 <div class="list-label">
+	  <div class="list-title">Cars</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	 </div>
+	</a>
+   </li>
+
+   <!-- separator -->
+   <div class="separator-large"></div>
+   <!-- end separator -->
+		        
+    <li>
+	 <a href="https://unsplash.com/s/photos/dark?orientation=portrait" class="list-item">
+	  <div class="list-media">
+	   <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Dark</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+	</li>
+			
+	<!-- separator -->
+    <div class="separator-large"></div>
+    <!-- end separator -->
+		  
+    <li>
+	 <a href="https://unsplash.com/s/photos/dope?orientation=portrait" class="list-item">
+	  <div class="list-media">
+	   <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Dope</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+	</li>
+				
+	<!-- separator -->
+    <div class="separator-large"></div>
+	<!-- end separator -->
+		 
+	<li>
+	 <a href="https://unsplash.com/s/photos/flowers?orientation=portrait" class="list-item">
+	  <div class="list-media">
+	   <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+      </div>
+	  <div class="list-label">
+	  <div class="list-title">Flowers</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	 </div>
+	</a>
+   </li>
+				
+   <!-- separator -->
+   <div class="separator-large"></div>
+   <!-- end separator -->
+	
+   <li>
+    <a href="https://unsplash.com/s/photos/gaming?orientation=portrait" class="list-item">
+	 <div class="list-media">
+	  <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	 </div>
+	 <div class="list-label">
+	  <div class="list-title">Gaming</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	 </div>
+    </a>
+   </li>
+	
+   <!-- separator -->
+   <div class="separator-large"></div>
+   <!-- end separator -->
+		        
+   <li>
+    <a href="https://unsplash.com/s/photos/glitch?orientation=portrait" class="list-item">
+	 <div class="list-media">
+	  <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	 </div>
+	<div class="list-label">
+	 <div class="list-title">Glitch</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
 	</div>
-	<!-- end page wrapper -->
+   </a>
+  </li>
+			
+  <!-- separator -->
+  <div class="separator-large"></div>
+  <!-- end separator -->
 
-	<!-- toolbar bottom -->
-	<div class="toolbar">
-		<div class="container">
-			<ul class="toolbar-bottom toolbar-wrap">
-				<li class="toolbar-item">
-					<a href="index.html" class="toolbar-link">
-						<i class="icon ion-ios-home"></i>
-					</a>
-				</li>
-				<li class="toolbar-item">
-					<a href="apps.html" class="toolbar-link">
-						<i class="icon ion-ios-apps"></i>
-					</a>
-				</li>
-				<li class="toolbar-item">
-					<a href="wallpapers.html" class="toolbar-link toolbar-link-active">
-						<i class="icon ion-ios-browsers"></i>
-					</a>
-				</li>
-				<li class="toolbar-item">
-					<a href="features.html" class="toolbar-link">
-						<i class="icon ion-ios-star"></i>
-					</a>
-				</li>
-			</ul>
-		</div>
+  <li>
+   <a href="https://unsplash.com/s/photos/gradient?orientation=portrait" class="list-item">
+    <div class="list-media">
+	 <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
 	</div>
-	<!-- end toolbar bottom -->
+	<div class="list-label">
+	 <div class="list-title">Gradient</div>
+	 <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	</div>
+   </a>
+  </li>
+				
+  <!-- separator -->
+  <div class="separator-large"></div>
+  <!-- end separator -->
+		        
+  <li>
+   <a href="https://unsplash.com/s/photos/minimal?orientation=portrait" class="list-item">
+	<div class="list-media">
+	 <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	</div>
+	<div class="list-label">
+	 <div class="list-title">Minimal</div>
+	 <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	</div>
+   </a>
+  </li>
+				
+  <!-- separator -->
+  <div class="separator-large"></div>
+  <!-- end separator -->
 
-	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/fakeLoader.js"></script>
-	<script src="js/swiper.min.js"></script>
-	<script src="js/jquery.big-slide.js"></script>
-	<script src="js/main.js"></script>
+  <li>
+   <a href="https://unsplash.com/s/photos/movies?orientation=portrait" class="list-item">
+	<div class="list-media">
+	 <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	</div>
+	<div class="list-label">
+	 <div class="list-title">Movies</div>
+	 <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	</div>
+   </a>
+  </li>
+
+  <!-- separator -->
+  <div class="separator-large"></div>
+  <!-- end separator -->
+
+  <li>
+   <a href="https://unsplash.com/s/photos/nature?orientation=portrait" class="list-item">
+	<div class="list-media">
+	 <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	</div>
+	<div class="list-label">
+	 <div class="list-title">Nature</div>
+	 <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	</div>
+   </a>
+  </li>
+		
+  <!-- separator -->
+  <div class="separator-large"></div>
+  <!-- end separator -->
+		    
+   <li>
+	<a href="https://unsplash.com/s/photos/ocean?orientation=portrait" class="list-item">
+	 <div class="list-media">
+	  <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	 </div>
+	 <div class="list-label">
+	  <div class="list-title">Ocean</div>
+	  <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	 </div>
+	</a>
+   </li>
+				
+   <!-- separator -->
+   <div class="separator-large"></div>
+   <!-- end separator -->
+		        
+    <li>
+     <a href="https://unsplash.com/s/photos/space?orientation=portrait" class="list-item">
+	  <div class="list-media">
+	   <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Space</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+	</li>
+				
+	<!-- separator -->
+    <div class="separator-large"></div>
+    <!-- end separator -->
+	
+    <li>
+	 <a href="https://unsplash.com/s/photos/street?orientation=portrait" class="list-item">
+	  <div class="list-media">
+	   <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Street</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+    </li>
+				
+	<!-- separator -->
+    <div class="separator-large"></div>
+	<!-- end separator -->
+	
+    <li>
+	 <a href="https://unsplash.com/s/photos/superheroes?orientation=portrait" class="list-item">
+	  <div class="list-media">
+	   <i class="icon"><img src="images/wallpapers.png" width="50" height="50"></i>
+	  </div>
+	  <div class="list-label">
+	   <div class="list-title">Superheroes</div>
+	   <div class="list-after"><i class="icon ion-ios-arrow-forward"></i></div>
+	  </div>
+	 </a>
+    </li>
+				
+	<!-- separator -->
+    <div class="separator-large"></div>
+    <!-- end separator -->
+			
+   </ul>
+  </div>
+
+  <!-- separator -->
+  <div class="separator-large"></div>
+  <!-- end separator -->
+
+ </div>
+ <!-- end page wrapper -->
+
+ <!-- toolbar bottom -->
+ <div class="toolbar">
+  <div class="container">
+   <ul class="toolbar-bottom toolbar-wrap">
+    <li class="toolbar-item">
+	 <a href="index.html" class="toolbar-link">
+	  <i class="icon ion-ios-home"></i>
+	 </a>
+	</li>
+	<li class="toolbar-item">
+	 <a href="apps.html" class="toolbar-link">
+	  <i class="icon ion-ios-apps"></i>
+	 </a>
+	</li>
+	<li class="toolbar-item">
+	 <a href="wallpapers.html" class="toolbar-link toolbar-link-active">
+	  <i class="icon ion-ios-browsers"></i>
+	 </a>
+	</li>
+	<li class="toolbar-item">
+	 <a href="about-us.html" class="toolbar-link">
+	  <i class="icon ion-ios-star"></i>
+	 </a>
+	</li>
+   </ul>
+  </div>
+ </div>
+ <!-- end toolbar bottom -->
+
+ <script src="js/jquery-3.4.1.min.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/fakeLoader.js"></script>
+ <script src="js/swiper.min.js"></script>
+ <script src="js/jquery.big-slide.js"></script>
+ <script src="js/main.js"></script>
 
 </body>
 </html>
